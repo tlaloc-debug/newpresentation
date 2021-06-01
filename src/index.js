@@ -36,6 +36,17 @@ function App(){
             <div className={"head"} style={{width: "100%", textAlign: "center", fontSize: "1.2em", padding: "50px 0px", textDecoration: "underline"}}>My projects</div>
                 
             <div className={matches ? "back" : "backcell"}>
+            <div className={matches ? "box" : "boxcell"}>
+                    <div className={matches ? "image imageproject3" : "imagecell imageproject3"}></div>
+                    <div className={"footer"}>
+                        <a href="https://garagecopy.herokuapp.com/"><div className={matches ? "button head" : "buttoncell head"}>Visit</div></a>
+                        <a href="https://github.com/tlaloc-debug/garagecopy"><div className={matches ? "button head" : "buttoncell head"}>Code</div></a>
+                    </div>
+                    <div className={matches ? "text" : "textcell"}>
+                        <div className={"title head"}>Cesar Bodyshop</div>
+                        <div>A site for a bodyshop garage based on fixauto.com. Still in progress.</div>
+                    </div>
+                </div>
                 <div className={matches ? "box" : "boxcell"}>
                     <div className={matches ? "image imageproject1" : "imagecell imageproject1"}></div>
                     <div className={"footer"}>
@@ -47,6 +58,9 @@ function App(){
                         <div>A site where you can check the specifications of 158 chips, their components and buy them. The store is not real.</div>
                     </div>
                 </div>
+            </div>
+
+            <div className={matches ? "back" : "backcell"}>
                 <div className={matches ? "box" : "boxcell"}>
                     <div className={matches ? "image imageproject2" : "imagecell imageproject2cell"}></div>
                     <div className={"footer"}>
@@ -57,21 +71,6 @@ function App(){
                     <div className={matches ? "text" : "textcell"}>
                         <div className={"title head"}>CovidAlert</div>
                         <div>A software where employees can submit their covid symptoms, in case of any, to a database. </div>
-                    </div>
-                </div>
-                
-            </div>
-
-            <div className={matches ? "back" : "backcell"}>
-                <div className={matches ? "box" : "boxcell"}>
-                    <div className={matches ? "image imageproject3" : "imagecell imageproject3"}></div>
-                    <div className={"footer"}>
-                        <a href="https://garagecopy.herokuapp.com/"><div className={matches ? "button head" : "buttoncell head"}>Visit</div></a>
-                        <a href="https://github.com/tlaloc-debug/garagecopy"><div className={matches ? "button head" : "buttoncell head"}>Code</div></a>
-                    </div>
-                    <div className={matches ? "text" : "textcell"}>
-                        <div className={"title head"}>Cesar Bodyshop</div>
-                        <div>A site for a bodyshop garage based on fixauto.com. Still in progress.</div>
                     </div>
                 </div>
                 <div className={matches ? "box" : "boxcell"}>
